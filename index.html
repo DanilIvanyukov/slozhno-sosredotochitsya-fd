@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light"> 
-    <link rel="stylesheet" href="./styles/variables.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="stylesheet" href="./styles/dark.css" />
-    <link rel="icon" href="images/favicon.ico" sizes="any">
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link rel="stylesheet" href="./styles/light.css">
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
     <title>Сложно сосредоточиться</title>
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <span class="header__decorated" aria-hidden="true"> Rec </span>
+      <span class="header__decorated" aria-hidden="true">Rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -44,13 +44,12 @@
       </nav>
       <h1 class="header__title">no focus</h1>  
       <p class="header__text text-decorated">
-        Что делать, когда не можешь делать ничего <br />Или почему нам так
-        сложно сконцентрироваться, особенно когда очень надо<br />
+        Что делать, когда не можешь делать ничего <br>Или почему нам так
+        сложно сконцентрироваться, особенно когда очень надо<br>
       </p>
     </header>
-    <main>
-      <main class="main">
-        <section class="main__section">
+    <main class="main">
+      <section class="main__section">
           <h2 class="main__section-title">Почему сосредоточиться так сложно</h2>
           <article class="article">
             <h3 class="article__title text-decorated">Многозадачность</h3>
@@ -79,7 +78,7 @@
         </section>
         <section class="main__section">
           <h2 class="main__section-title">Что снижает концентрацию внимания?</h2>
-          <article class="article">
+           <article class="article article__accent">
             <h3 class="article__title text-decorated">Многозадачность</h3>
             <p class="article__text">
               Как концентрация может снижаться из-за… концентрации?
@@ -89,7 +88,7 @@
               Концентрация — мышца, и она может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article class="article">
+          <article class="article article__accent">
             <h3 class="article__title text-decorated">Еда</h3>
             <p class="article__text">
               «Быстрые углеводы» — сахар, белый хлеб,
@@ -99,7 +98,7 @@
               мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article class="article">
+          <article class="article article__accent">
             <h3 class="article__title text-decorated">Гаджеты</h3>
             <p class="article__text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в наушниках — подкаст,
@@ -113,8 +112,8 @@
         </section>
         <section class="main__section">
           <h2 class="main__section-title">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-          <h3 class="main__article-title text-decorated">5 простых (на самом деле не очень) советов</h3>
           <article class="article">
+            <h3 class="main__article-title text-decorated">5 простых (на самом деле не очень) советов</h3>
             <h4 class="article__subtitle text-decorated">Представьте небо и облака</h4>
             <p class="article__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться.
@@ -162,40 +161,40 @@
             </p>
           </article>
         </section>
-      <section class="main__section-picture"> 
+      <section class="main__section-gallery"> 
         <h3 class="article__title text-decorated">А можно в картинках?</h3>
-        <article class="article">
+        <div class="article__gallery">
           <img 
           loading="lazy"
-          class="article__image image__sunset"
+          class="article__image-size image__sunset"
           src="./images/sunset.png"
           alt="Горы и море на фоне заката"
-          />
-        <img
+          >
+          <img
           loading="lazy"
-          class="article__image image__ice-cream"
+          class="article__image-size image__ice-cream"
           src="./images/ice-cream.png"
           alt="Мороженное в желтой миске с 4 шариками мороженного и украшеннофе фруктами и трубочками"
-          />
-        <img
+          >
+          <img
           loading="lazy"
-          class="article__image image__tape"
+          class="article__image-size image__tape"
           src="./images/tape.png"
           alt="Тематическое изоборажение касеты"
-          />
-        <img
+          >
+          <img
           loading="lazy"
-          class="article__image image__books"
+          class="article__image-size image__books"
           src="./images/books.png"
           alt="Стопка книг, с чашкой кофе наверху"
-          />
-        <img
+          >
+          <img
           loading="lazy"
-          class="article__image image__street"
+          class="article__image-size image__street"
           src="./images/street.png"
           alt="Улица с домами и деревьями вдалеке"
-          />
-        </article>
+          >
+        </div>
       </section>
     </main>
     <footer class="footer decorated-zone">
