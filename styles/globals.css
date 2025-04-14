@@ -12,6 +12,7 @@ body {
   margin: 0 auto;
   font-family: var(--main-font);
   font-size: var(--font-size);
+  padding: 0;
 }
 
 h1,
