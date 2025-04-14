@@ -1,6 +1,7 @@
 :root {
-  --main-font: "IBM Plex Mono", sans-serif;
+  --main-font: "IBM Plex Mono", monospace;
   --background-color: #000028;
+  --decorated-color: #FF0070;
   --menu-color:#FF0070;
   --menu-color-rgba: rgba(255, 0, 112, 0.5);
   --accent-color: #FF0070;
@@ -8,12 +9,14 @@
   --main-title-color: #FF0070;
   --main-subtitle-color: #000028;
   --text-color: #F1B2CE;
+  --shadow-footer: #FF0070;
   --font-size: 18px;
   --main-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --main-size-title-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --transparent-text: transparent;
   --cover-image: url("../images/cover-image-dark.png");
-  --padding-page: 10px;
+  --padding-header-footer: 10px;
+  --padding-section: 0px 10px;
   --main-gap: 50px;
   --section-gap: 20px;
   --section-picture-gap: 10px;
